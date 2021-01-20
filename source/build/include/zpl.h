@@ -169,7 +169,7 @@ zpl_inline zpl_u64 zpl_rdtsc(void) {
 #else
 #error "No suitable method for zpl_rdtsc for this cpu type"
 #endif
-    return r;
+    return 0;
 }
 #endif
 
